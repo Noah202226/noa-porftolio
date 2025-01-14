@@ -6,13 +6,13 @@
     <title>My Portfolio</title>
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/styles.css') }}"
+      href="{{ url_for('static', filename='static/css/styles.css') }}"
     />
   </head>
   <body>
     <h1>Welcome to My Portfolio</h1>
     <p id="message">This message will change after JavaScript loads.</p>
 
-    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script src="{{ url_for('static', filename='static/js/index.js') }}"></script>
   </body>
 </html>
